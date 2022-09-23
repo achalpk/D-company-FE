@@ -1,0 +1,26 @@
+.contactus{
+    padding:100px;
+}
+h2{
+    text-align: center;
+}
+#contact-tbl{
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+}
+label{
+    text-align: right;
+}
+.fields{
+    width: 87%;
+}
+td{
+    padding:10px;
+}
+.td-label{
+    text-align: right;
+}
+#submit-btn{
+    width: 100px;
+}

@@ -1,0 +1,108 @@
+.chatIcon{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 60px;
+    height: 40px;
+    z-index: 999999999;
+    background-color: #1c2e46;
+    border: none;
+    color: white; 
+    border-radius: 20px;
+    cursor: pointer;
+    transition:ease-in-out .2s;
+}
+.chatIcon:hover{
+    width: 70px;
+    height: 50px;
+    font-size: medium;
+    border-radius: 30px;
+}
+.chatBox{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 350px;
+    height: 500px;
+    z-index: 999999999;
+    background-color: #1c2e46;
+    border-radius: 10px;
+}
+.chatBoxHead{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+    height: 50px;
+    color: white;
+    position: relative;
+    text-align:center;
+    padding:0 20px;
+}
+#chatTextBox{
+    width: 70%;
+    height: 35px;
+    outline:none;
+    margin:10px 5px 10px 10px;
+    border-radius:5px;
+    border:none;
+    background-color: rgb(39, 37, 48);
+    color: white;
+    padding: 0 5px;
+}
+
+#sendButton{
+    height: 35px;
+    width: 18%;
+    border-radius:5px;
+    margin:5px 5px 5px 1px;
+    border: none;
+    background-color: rgb(39, 37, 48);
+    color: white;
+}
+
+.chatMsgs{
+    height: 100%;
+    padding:5px;
+    overflow-y: scroll;
+    background-color: rgb(208, 205, 216);
+}
+
+.message{
+    color: rgb(255, 255, 255);
+    background-color: rgb(73, 72, 75);
+    width: 70%;
+    float: right;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: right;
+    overflow-wrap: break-word;
+}
+
+.replyDiv{
+    float: left;
+    width: 70%;
+    margin: 10px;
+}
+.reply{
+    color: rgb(0, 0, 0);
+    background-color: #9ea4ac;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.replybtn{
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    margin:3px 5px;
+    background-color: rgb(135, 122, 168);
+}
+.replybtn:hover{
+    background-color: rgb(67, 66, 70);
+    color: white;
+}

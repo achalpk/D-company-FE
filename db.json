@@ -1,0 +1,179 @@
+{
+  "services": [
+    {
+      "serviceImage": "https://images.unsplash.com/photo-1583508915901-b5f84c1dcde1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "serviceName": "WEB DEVELOPMENT",
+      "serviceTag": "Turn innovative web-based app ideas into exciting reality with scalable web development & design solutions"
+    },
+    {
+      "serviceImage": "https://images.unsplash.com/photo-1618761714954-0b8cd0026356?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "serviceName": "MOBILE APP DEVELOPMENT",
+      "serviceTag": "Your dream deserves more than a place in your imagination and our developers give wings to your imagination."
+    },
+    {
+      "serviceImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
+      "serviceName": "SOFTWARE DEVELOPMENT",
+      "serviceTag": "Infuse high performance and mark a revolutionary breakthrough with the aid of top custom software build to suit your unique business processes"
+    },
+    {
+      "serviceImage": "https://images.unsplash.com/photo-1586717799252-bd134ad00e26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "serviceName": "UI/UX ENGINEERING",
+      "serviceTag": "Augment your software experience by executing it through our visual design process"
+    }
+  ],
+  "teams": [
+    {
+      "id": "D-emp01",
+      "image": "https://cdn.media.amplience.net/s/hottopic/15850493_hi?$productMainDesktop$",
+      "name": "J.Klopp",
+      "position": "Couch",
+      "team": "Team manager",
+      "location": "Germany"
+    },
+    {
+      "id": "D-emp02",
+      "image": "https://i.pinimg.com/originals/9e/5c/17/9e5c17fb6cc0aab2d20451c8784d0ce5.jpg",
+      "name": "Alison.B",
+      "position": "GoalKeeper",
+      "team": "Defensive",
+      "location": "Brazil"
+    },
+    {
+      "id": "D-emp03",
+      "image": "https://cdn.shopify.com/s/files/1/0433/1952/5529/products/39920_EPL_VirgilVanDijk_POP_GLAM_WEB.png?v=1607605638",
+      "name": "V.Van Dijk",
+      "position": "CenterBack",
+      "team": "Defensive",
+      "location": "Netherland"
+    },
+    {
+      "id": "D-emp04",
+      "image": "https://i.pinimg.com/736x/4d/77/a4/4d77a4bdcb583266cfff0af013edfe60.jpg",
+      "name": "Henderson",
+      "position": "CenterMidField",
+      "team": "Center",
+      "location": "England"
+    },
+    {
+      "id": "D-emp05",
+      "image": "https://previews.123rf.com/images/ezhevica/ezhevica1604/ezhevica160400056/55883540-vector-illustration-of-retro-male-character-a-head-of-an-old-man-with-mustache-and-cap-ink-drawing-g.jpg",
+      "name": "L.Diaz",
+      "position": "LeftWingForward",
+      "team": "Attacking",
+      "location": "Colombia"
+    },
+    {
+      "id": "D-emp06",
+      "image": "https://previews.123rf.com/images/ezhevica/ezhevica1604/ezhevica160400041/55883529-hand-drawn-head-of-bearded-man-with-knitted-cap-on-and-smoking-pipe-vector-illustration-of-manly-nor.jpg",
+      "name": "R.Firmino",
+      "position": "SecondStriker",
+      "team": "Attacking",
+      "location": "Brazil"
+    },
+    {
+      "id": "D-emp07",
+      "image": "https://previews.123rf.com/images/ezhevica/ezhevica1604/ezhevica160400053/55883537-vector-illustration-of-retro-male-character-a-head-of-elegant-gentleman-with-mustache-monocle-and-bo.jpg",
+      "name": "S.Gerrand",
+      "position": "CenterMidField",
+      "team": "Center",
+      "location": "England"
+    },
+    {
+      "id": "D-emp08",
+      "image": "https://previews.123rf.com/images/ezhevica/ezhevica1604/ezhevica160400043/55883531-hand-drawn-head-of-bearded-man-with-cap-on-vector-illustration-of-manly-north-fisherman-or-lumberjac.jpg",
+      "name": "L.Suarez",
+      "position": "CenterForward",
+      "team": "Attacking",
+      "location": "Uruguay"
+    },
+    {
+      "id": "D-emp09",
+      "image": "https://previews.123rf.com/images/ezhevica/ezhevica1604/ezhevica160400056/55883540-vector-illustration-of-retro-male-character-a-head-of-an-old-man-with-mustache-and-cap-ink-drawing-g.jpg",
+      "name": "T.A.Arnod",
+      "position": "RightWingBack",
+      "team": "Defensive",
+      "location": "England"
+    },
+    {
+      "id": "D-emp10",
+      "image": "https://previews.123rf.com/images/ezhevica/ezhevica1604/ezhevica160400041/55883529-hand-drawn-head-of-bearded-man-with-knitted-cap-on-and-smoking-pipe-vector-illustration-of-manly-nor.jpg",
+      "name": "Origi",
+      "position": "CenterForward",
+      "team": "Attacking",
+      "location": "Belgium"
+    },
+    {
+      "id": "D-emp11",
+      "image": "https://previews.123rf.com/images/ezhevica/ezhevica1604/ezhevica160400053/55883537-vector-illustration-of-retro-male-character-a-head-of-elegant-gentleman-with-mustache-monocle-and-bo.jpg",
+      "name": "Robertson",
+      "position": "LeftWingBack",
+      "team": "Defensive",
+      "location": "Scotland"
+    },
+    {
+      "id": "D-emp12",
+      "image": "https://previews.123rf.com/images/ezhevica/ezhevica1604/ezhevica160400043/55883531-hand-drawn-head-of-bearded-man-with-cap-on-vector-illustration-of-manly-north-fisherman-or-lumberjac.jpg",
+      "name": "Salah",
+      "position": "RightWingForward",
+      "team": "Attacking",
+      "location": "Egypt"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Achal",
+      "email": "achal@gmail.com",
+      "phone": "1234567890",
+      "subject": "qwerty",
+      "message": "qwertyuiop",
+      "id": 4
+    },
+    {
+      "name": "Watson",
+      "email": "watson@gmail.com",
+      "phone": "35795148620",
+      "subject": "Am I a Cricket player?",
+      "message": "Please answer the question...",
+      "id": 6
+    },
+    {
+      "name": "john",
+      "email": "john@mail.com",
+      "phone": "95175368420",
+      "subject": "where am I",
+      "message": "Who are you?",
+      "id": 7
+    },
+    {
+      "name": "Jacky chan",
+      "email": "jackychan@gmail.com",
+      "phone": "9731548620",
+      "subject": "Kung fu",
+      "message": "what is Kung fu?",
+      "id": 8
+    },
+    {
+      "name": "jjj",
+      "email": "",
+      "phone": "",
+      "subject": "",
+      "message": "",
+      "id": 9
+    },
+    {
+      "name": "qqqqq",
+      "email": "",
+      "phone": "",
+      "subject": "",
+      "message": "",
+      "id": 10
+    }
+  ],
+  "feedbacks": [
+    {
+      "feedbacktitle": "Hi Im Tony",
+      "feedbackMsg": "How are you?",
+      "id": 1
+    }
+  ]
+}

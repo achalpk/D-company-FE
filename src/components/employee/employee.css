@@ -1,0 +1,19 @@
+.employee{
+    box-sizing:border-box;
+    width: 84.1vw;
+    height: 78vh;
+    background-color: rgb(58, 58, 58);
+    box-shadow:0px 0px 10px rgb(29, 28, 28);
+    margin : auto;
+    position:fixed;
+    top : 13%;
+    padding:10px;
+    border-radius: 10px;
+    color: white;
+    z-index: 9999999999;
+}
+.empDetail{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

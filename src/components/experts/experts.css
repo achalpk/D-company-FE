@@ -1,0 +1,36 @@
+#experts{
+    margin-top: 30px;
+    padding: 30px;
+    transition: ease .4s all;
+    background-color: white;
+    box-shadow:0px 0px 10px rgb(142, 148, 155);
+    border-radius: 20px;
+}
+
+#experts:hover{
+    transform: scale(1.01);
+}
+
+.teams{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0 30px;
+}
+
+.team{
+    border-radius: 3px;
+    box-shadow:0px 0px 10px rgb(142, 148, 155);
+    width: 10%;
+}
+
+.team-img{
+    width: 100%;
+    height: 100px;
+    padding-bottom: 0px;
+}
+
+.moreTeams{
+    text-decoration:none;
+    color: hwb(0 0% 100%);
+    /* font-size: 30px; */
+}

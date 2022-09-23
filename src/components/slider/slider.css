@@ -1,0 +1,17 @@
+.slide{
+    height: 45vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-size: 100% 100%;
+}
+.button{
+    /* border: 2px solid red; */
+    width: 100px;
+    background: transparent;
+    border: 0;
+    /* color: white; */
+    font-size: 24px;
+    font-weight: bolder;
+    opacity: .5;
+}

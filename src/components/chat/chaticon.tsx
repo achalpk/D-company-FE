@@ -28,7 +28,7 @@ export function ChatBox(props:{setIsChat:(value : boolean)=>void}) {
         if(msg.message !== null && msg.message.match(/^ *$/) === null){
             switch(count){
                 case 1:
-                    reply ='What Kind Of Information Do You Need?';
+                    reply ='What kind of information do you need?';
                     break;
             }
             setFetchMsgs([...fetchMsgs,{'ask':msg.message,'reply':reply}])
@@ -39,7 +39,7 @@ export function ChatBox(props:{setIsChat:(value : boolean)=>void}) {
 
     const more=()=>{
         setCount(count+1);
-        const reply=<p>For More Information, <br/>Please Contact Our HR.<br/>Phone No. - 0123456789 <br/>Email - d.company@mail.com</p>
+        const reply=<p>For more information, <br/>Please contact our HR.<br/>Phone No. - 0123456789 <br/>Email - d.company@mail.com</p>
         setFetchMsgs([...fetchMsgs,{'ask':'More Information','reply':reply}])
     }
 
@@ -54,7 +54,7 @@ export function ChatBox(props:{setIsChat:(value : boolean)=>void}) {
             <div className='chatMsgs'>
                 <div className='replyDiv'>
                     <p className='reply'>Hi, {Username}</p>
-                    <p className='reply'>Welcome To D-company!<br/><br/>Please Provide Your Email Address.</p>
+                    <p className='reply'>Welcome to D-company!<br/><br/>Please provide your email address.</p>
                 </div>
                 {fetchMsgs.map((fetchmsg:{'ask':string,'reply':string|React.ReactNode},index:number)=>
                                     <div key={index}>

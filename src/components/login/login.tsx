@@ -18,6 +18,7 @@ function Login(){
             localStorage.setItem('Token', response.data.token)
             sessionStorage.setItem('isAuth','true')
             sessionStorage.setItem('username',response.data.user)
+            sessionStorage.setItem('userId',response.data.userId)
             history.push('/')
           }
           else{

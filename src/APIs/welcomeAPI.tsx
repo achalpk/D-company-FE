@@ -19,6 +19,7 @@ function fetchWelcome(history:any){
             if(!error.response.data.token){
                 localStorage.removeItem('Token');
                 sessionStorage.removeItem('username');
+                sessionStorage.removeItem('userId');
                 sessionStorage.removeItem('isAuth');
                 history.push('/')
             }

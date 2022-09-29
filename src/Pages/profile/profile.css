@@ -1,0 +1,29 @@
+.profile{
+    padding : 140px 50px; 
+    background-color : #8d8c78;
+    min-height: 47vh;
+}
+
+.jobTable{
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    border-spacing:0 20px;
+    text-align: center;
+    font-size: 18px;
+    width: 100%; 
+}
+
+.jobTableRow{
+    background-color: rgb(54, 54, 54);
+    color: white;
+    height: 60px;
+    border-radius: 10px 0 0 10px;
+}
+
+.jobTableRow:hover{
+    background-color: rgb(43, 41, 41);
+}
+
+.jobTableCell{
+    width: 100px;
+}

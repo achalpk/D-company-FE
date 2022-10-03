@@ -1,7 +1,7 @@
 import React, { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Home from './Pages/home';
-import Profile from './Pages/profile';
+import Profile from './Pages/profile/profile';
 import PrivateRoute from './Pages/privateroute';
 import Login from './components/login/login';
 import Landing from './Pages/landing';
@@ -10,11 +10,14 @@ import {Provider} from 'react-redux';
 import store from './redux/store';
 import Employees from './Pages/employees/employees';
 import Signup from './components/login/signup';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
     <Provider store={store}>
       <div className='app'>
+        <ToastContainer autoClose={3000}/>
         <BrowserRouter>
           <Switch>
             <PrivateRoute exact path='/'><Home/></PrivateRoute>

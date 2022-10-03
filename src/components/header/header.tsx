@@ -11,6 +11,7 @@ function Header(){
     const logout = ()=>{
         sessionStorage.removeItem('isAuth');
         sessionStorage.removeItem('username');
+        sessionStorage.removeItem('userId');
         localStorage.removeItem('Token');
         history.push('/')
     }

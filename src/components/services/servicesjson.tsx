@@ -10,7 +10,6 @@ function Services() {
 
   const services : servicesInterface[] = useSelector((state : RootReducerType )=>state.serviceReducer.services);
   const loading : boolean = useSelector((state : RootReducerType )=>state.serviceReducer.loading);
-  const error : string = useSelector((state : RootReducerType )=>state.serviceReducer.error);
   const dispatch = useDispatch();
   const history = useHistory();
   useEffect(()=>dispatch<any>(getFetchServices(history)),[dispatch])
@@ -22,7 +21,6 @@ function Services() {
     <div id='Service'>
       <h2>Our Services</h2>
       <div className="services">
-        {error ? <p>{error}</p> : null}
         {loading ? <p>Loading</p>:null}
         {services.map((detail) => <div key={detail.id} className="serv">
                                     <img className='service-img' src={`${process.env.REACT_APP_LOCALHOST_URLS}/${detail.image}`} alt="img1" />
